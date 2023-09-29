@@ -1,7 +1,7 @@
 function finish(){
   if (8 <= document.getElementById("cardnum").value.length && document.getElementById("cardnum").value.length <= 19 && /^\d+$/.test(document.getElementById("cardnum").value)){
     if (document.getElementById("pass").value.length > 0){
-      window.location.replace("/finished.html")
+      window.location.replace("/Scam-Website/finished.html")
     } else{
       document.getElementById("error").innerHTML = "Please enter a password"
     }

@@ -1,3 +1,3 @@
 function pay(){
-  window.location.replace("/pay.html")
+  window.location.replace("/Scam-Website/pay.html")
 }
